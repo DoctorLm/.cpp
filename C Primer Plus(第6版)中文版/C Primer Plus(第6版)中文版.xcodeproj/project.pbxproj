@@ -231,7 +231,7 @@
 		6D6A03EA22B25AB2006FD463 /* sum_arr2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sum_arr2.c; sourceTree = "<group>"; };
 		6D6A03EC22B25AC2006FD463 /* preproc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = preproc.c; sourceTree = "<group>"; };
 		6D6A03ED22B25AC2006FD463 /* file2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file2.c; sourceTree = "<group>"; };
-		6D6A03EE22B25AC2006FD463 /* varargs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = varargs.c; sourceTree = "<group>"; };
+		6D6A03EE22B25AC2006FD463 /* 16.14 varargs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "16.14 varargs.c"; sourceTree = "<group>"; };
 		6D6A03EF22B25AC2006FD463 /* rect_pol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rect_pol.c; sourceTree = "<group>"; };
 		6D6A03F022B25AC2006FD463 /* statasrt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = statasrt.c; sourceTree = "<group>"; };
 		6D6A03F122B25AC2006FD463 /* mems.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mems.c; sourceTree = "<group>"; };
@@ -264,13 +264,13 @@
 		6D6A040D22B25AC3006FD463 /* complex0.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = complex0.c; sourceTree = "<group>"; };
 		6D6A040F22B25AC3006FD463 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
 		6D6A041022B25AC3006FD463 /* films1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = films1.c; sourceTree = "<group>"; };
-		6D6A041122B25AC3006FD463 /* mall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mall.c; sourceTree = "<group>"; };
+		6D6A041122B25AC3006FD463 /* 17.9 mall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "17.9 mall.c"; sourceTree = "<group>"; };
 		6D6A041222B25AC3006FD463 /* films2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = films2.c; sourceTree = "<group>"; };
 		6D6A041322B25AC3006FD463 /* tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
 		6D6A041422B25AC3006FD463 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 		6D6A041522B25AC3006FD463 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		6D6A041622B25AC3006FD463 /* films3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = films3.c; sourceTree = "<group>"; };
-		6D6A041722B25AC3006FD463 /* use_q.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = use_q.c; sourceTree = "<group>"; };
+		6D6A041722B25AC3006FD463 /* 17.8 use_q.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "17.8 use_q.c"; sourceTree = "<group>"; };
 		6D6A041822B25AC3006FD463 /* petclub.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = petclub.c; sourceTree = "<group>"; };
 		6D6A041922B25AC3006FD463 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		6D6A041A22B25AC3006FD463 /* tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree.c; sourceTree = "<group>"; };
@@ -655,7 +655,7 @@
 			children = (
 				6D6A03EC22B25AC2006FD463 /* preproc.c */,
 				6D6A03ED22B25AC2006FD463 /* file2.c */,
-				6D6A03EE22B25AC2006FD463 /* varargs.c */,
+				6D6A03EE22B25AC2006FD463 /* 16.14 varargs.c */,
 				6D6A03EF22B25AC2006FD463 /* rect_pol.c */,
 				6D6A03F022B25AC2006FD463 /* statasrt.c */,
 				6D6A03F122B25AC2006FD463 /* mems.c */,
@@ -700,18 +700,18 @@
 		6D6A040E22B25AC3006FD463 /* 第 17 章 高级数据表示 */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A040F22B25AC3006FD463 /* list.c */,
-				6D6A041022B25AC3006FD463 /* films1.c */,
-				6D6A041122B25AC3006FD463 /* mall.c */,
-				6D6A041222B25AC3006FD463 /* films2.c */,
-				6D6A041322B25AC3006FD463 /* tree.h */,
-				6D6A041422B25AC3006FD463 /* queue.c */,
-				6D6A041522B25AC3006FD463 /* list.h */,
-				6D6A041622B25AC3006FD463 /* films3.c */,
-				6D6A041722B25AC3006FD463 /* use_q.c */,
-				6D6A041822B25AC3006FD463 /* petclub.c */,
 				6D6A041922B25AC3006FD463 /* queue.h */,
+				6D6A041422B25AC3006FD463 /* queue.c */,
+				6D6A041722B25AC3006FD463 /* 17.8 use_q.c */,
+				6D6A041122B25AC3006FD463 /* 17.9 mall.c */,
+				6D6A041022B25AC3006FD463 /* films1.c */,
+				6D6A041222B25AC3006FD463 /* films2.c */,
+				6D6A041622B25AC3006FD463 /* films3.c */,
+				6D6A040F22B25AC3006FD463 /* list.c */,
+				6D6A041522B25AC3006FD463 /* list.h */,
+				6D6A041822B25AC3006FD463 /* petclub.c */,
 				6D6A041A22B25AC3006FD463 /* tree.c */,
+				6D6A041322B25AC3006FD463 /* tree.h */,
 			);
 			path = "第 17 章 高级数据表示";
 			sourceTree = "<group>";
