@@ -325,13 +325,13 @@
 				6D6A037622B25AB1006FD463 /* 第 8 章 字符输入&输出和输入验证 */,
 				6D6A035722B25AB1006FD463 /* 第 9 章 函数 */,
 				6D6A03D722B25AB2006FD463 /* 第 10 章 数组和指针 */,
-				6D6A038022B25AB1006FD463 /* Ch11 */,
-				6D6A036622B25AB1006FD463 /* Ch12 */,
-				6D6A03BB22B25AB1006FD463 /* Ch13 */,
-				6D6A034622B25AB0006FD463 /* Ch14 */,
-				6D6A03C422B25AB2006FD463 /* Ch15 */,
-				6D6A03EB22B25AC2006FD463 /* Ch16 */,
-				6D6A040E22B25AC3006FD463 /* Ch17 */,
+				6D6A038022B25AB1006FD463 /* 第 11 章 字符串和字符串函数 */,
+				6D6A036622B25AB1006FD463 /* 第 12 章 存储类别、链接和内存管理 */,
+				6D6A03BB22B25AB1006FD463 /* 第 13 章 文件输入&输出 */,
+				6D6A034622B25AB0006FD463 /* 第 14 章 结构和其他数据形式 */,
+				6D6A03C422B25AB2006FD463 /* 第 15 章 位操作 */,
+				6D6A03EB22B25AC2006FD463 /* 第 16 章 C预处理器和C库 */,
+				6D6A040E22B25AC3006FD463 /* 第 17 章 高级数据表示 */,
 				6D6A040722B25AC3006FD463 /* XB */,
 			);
 			path = "C PrimerPlus 6 源码";
@@ -425,7 +425,7 @@
 			path = "第 4 章 字符串和格式化输入&输出";
 			sourceTree = "<group>";
 		};
-		6D6A034622B25AB0006FD463 /* Ch14 */ = {
+		6D6A034622B25AB0006FD463 /* 第 14 章 结构和其他数据形式 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A034722B25AB0006FD463 /* manybook.c */,
@@ -445,7 +445,7 @@
 				6D6A035522B25AB0006FD463 /* funds3.c */,
 				6D6A035622B25AB0006FD463 /* flexmemb.c */,
 			);
-			path = Ch14;
+			path = "第 14 章 结构和其他数据形式";
 			sourceTree = "<group>";
 		};
 		6D6A035722B25AB1006FD463 /* 第 9 章 函数 */ = {
@@ -469,7 +469,7 @@
 			path = "第 9 章 函数";
 			sourceTree = "<group>";
 		};
-		6D6A036622B25AB1006FD463 /* Ch12 */ = {
+		6D6A036622B25AB1006FD463 /* 第 12 章 存储类别、链接和内存管理 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A036722B25AB1006FD463 /* forc99.c */,
@@ -488,7 +488,7 @@
 				6D6A037422B25AB1006FD463 /* manydice.c */,
 				6D6A037522B25AB1006FD463 /* diceroll.h */,
 			);
-			path = Ch12;
+			path = "第 12 章 存储类别、链接和内存管理";
 			sourceTree = "<group>";
 		};
 		6D6A037622B25AB1006FD463 /* 第 8 章 字符输入&输出和输入验证 */ = {
@@ -507,7 +507,7 @@
 			path = "第 8 章 字符输入&输出和输入验证";
 			sourceTree = "<group>";
 		};
-		6D6A038022B25AB1006FD463 /* Ch11 */ = {
+		6D6A038022B25AB1006FD463 /* 第 11 章 字符串和字符串函数 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A038122B25AB1006FD463 /* compare.c */,
@@ -541,7 +541,7 @@
 				6D6A039D22B25AB1006FD463 /* fgets2.c */,
 				6D6A039E22B25AB1006FD463 /* put_out.c */,
 			);
-			path = Ch11;
+			path = "第 11 章 字符串和字符串函数";
 			sourceTree = "<group>";
 		};
 		6D6A039F22B25AB1006FD463 /* 第 6 章 C控制语句-循环 */ = {
@@ -578,7 +578,7 @@
 			path = "第 6 章 C控制语句-循环";
 			sourceTree = "<group>";
 		};
-		6D6A03BB22B25AB1006FD463 /* Ch13 */ = {
+		6D6A03BB22B25AB1006FD463 /* 第 13 章 文件输入&输出 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A03BC22B25AB2006FD463 /* addaword.c */,
@@ -590,10 +590,10 @@
 				6D6A03C222B25AB2006FD463 /* randbin.c */,
 				6D6A03C322B25AB2006FD463 /* count.c */,
 			);
-			path = Ch13;
+			path = "第 13 章 文件输入&输出";
 			sourceTree = "<group>";
 		};
-		6D6A03C422B25AB2006FD463 /* Ch15 */ = {
+		6D6A03C422B25AB2006FD463 /* 第 15 章 位操作 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A03C522B25AB2006FD463 /* align.c */,
@@ -602,7 +602,7 @@
 				6D6A03C822B25AB2006FD463 /* invert4.c */,
 				6D6A03C922B25AB2006FD463 /* fields.c */,
 			);
-			path = Ch15;
+			path = "第 15 章 位操作";
 			sourceTree = "<group>";
 		};
 		6D6A03CA22B25AB2006FD463 /* 第 7 章 C控制语句-分支和跳转 */ = {
@@ -650,7 +650,7 @@
 			path = "第 10 章 数组和指针";
 			sourceTree = "<group>";
 		};
-		6D6A03EB22B25AC2006FD463 /* Ch16 */ = {
+		6D6A03EB22B25AC2006FD463 /* 第 16 章 C预处理器和C库 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A03EC22B25AC2006FD463 /* preproc.c */,
@@ -681,7 +681,7 @@
 				6D6A040522B25AC2006FD463 /* subst.c */,
 				6D6A040622B25AC2006FD463 /* glue.c */,
 			);
-			path = Ch16;
+			path = "第 16 章 C预处理器和C库";
 			sourceTree = "<group>";
 		};
 		6D6A040722B25AC3006FD463 /* XB */ = {
@@ -697,7 +697,7 @@
 			path = XB;
 			sourceTree = "<group>";
 		};
-		6D6A040E22B25AC3006FD463 /* Ch17 */ = {
+		6D6A040E22B25AC3006FD463 /* 第 17 章 高级数据表示 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A040F22B25AC3006FD463 /* list.c */,
@@ -713,7 +713,7 @@
 				6D6A041922B25AC3006FD463 /* queue.h */,
 				6D6A041A22B25AC3006FD463 /* tree.c */,
 			);
-			path = Ch17;
+			path = "第 17 章 高级数据表示";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
