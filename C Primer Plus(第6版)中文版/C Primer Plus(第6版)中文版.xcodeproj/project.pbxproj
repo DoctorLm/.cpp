@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6D6A041D22B25B79006FD463 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A030422B25871006FD463 /* main.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6D6A02FF22B25871006FD463 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,9 +21,9 @@
 /* Begin PBXFileReference section */
 		6D6A030122B25871006FD463 /* C Primer Plus(第6版)中文版 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Primer Plus(第6版)中文版"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6A030422B25871006FD463 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		6D6A030D22B25A6A006FD463 /* inform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inform.c; sourceTree = "<group>"; };
-		6D6A030E22B25A6A006FD463 /* listing1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = listing1.c; sourceTree = "<group>"; };
-		6D6A030F22B25A6A006FD463 /* listing2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = listing2.c; sourceTree = "<group>"; };
+		6D6A030D22B25A6A006FD463 /* 1.3 inform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.3 inform.c"; sourceTree = "<group>"; };
+		6D6A030E22B25A6A006FD463 /* 1.1 listing1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.1 listing1.c"; sourceTree = "<group>"; };
+		6D6A030F22B25A6A006FD463 /* 1.2 listing2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1.2 listing2.c"; sourceTree = "<group>"; };
 		6D6A031122B25A8C006FD463 /* squares.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = squares.c; sourceTree = "<group>"; };
 		6D6A031222B25A8C006FD463 /* bottles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bottles.c; sourceTree = "<group>"; };
 		6D6A031322B25A8C006FD463 /* wheat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wheat.c; sourceTree = "<group>"; };
@@ -44,11 +40,11 @@
 		6D6A031E22B25A8C006FD463 /* sizeof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sizeof.c; sourceTree = "<group>"; };
 		6D6A031F22B25A8C006FD463 /* pound.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pound.c; sourceTree = "<group>"; };
 		6D6A032022B25A8C006FD463 /* shoes1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shoes1.c; sourceTree = "<group>"; };
-		6D6A032222B25A8C006FD463 /* two_func.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = two_func.c; sourceTree = "<group>"; };
-		6D6A032322B25A8C006FD463 /* first.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = first.c; sourceTree = "<group>"; };
-		6D6A032422B25A8C006FD463 /* stillbad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stillbad.c; sourceTree = "<group>"; };
-		6D6A032522B25A8C006FD463 /* fathm_ft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fathm_ft.c; sourceTree = "<group>"; };
-		6D6A032622B25A8C006FD463 /* nogood.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nogood.c; sourceTree = "<group>"; };
+		6D6A032222B25A8C006FD463 /* 2.3 two_func.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.3 two_func.c"; sourceTree = "<group>"; };
+		6D6A032322B25A8C006FD463 /* 2.1 first.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.1 first.c"; sourceTree = "<group>"; };
+		6D6A032422B25A8C006FD463 /* 2.5 stillbad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.5 stillbad.c"; sourceTree = "<group>"; };
+		6D6A032522B25A8C006FD463 /* 2.2 fathm_ft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "2.2 fathm_ft.c"; sourceTree = "<group>"; };
+		6D6A032622B25A8C006FD463 /* 2.4nogood.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.4nogood.c; sourceTree = "<group>"; };
 		6D6A032822B25A8C006FD463 /* toobig.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = toobig.c; sourceTree = "<group>"; };
 		6D6A032922B25A8C006FD463 /* print2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print2.c; sourceTree = "<group>"; };
 		6D6A032A22B25A8C006FD463 /* escape.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = escape.c; sourceTree = "<group>"; };
@@ -319,16 +315,16 @@
 		6D6A030B22B25A2E006FD463 /* C PrimerPlus 6 源码 */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A030C22B25A6A006FD463 /* Ch01 */,
-				6D6A032122B25A8C006FD463 /* Ch02 */,
-				6D6A032722B25A8C006FD463 /* Ch03 */,
-				6D6A033422B25A8C006FD463 /* Ch04 */,
-				6D6A031022B25A8C006FD463 /* Ch05 */,
-				6D6A039F22B25AB1006FD463 /* Ch06 */,
-				6D6A03CA22B25AB2006FD463 /* Ch07 */,
-				6D6A037622B25AB1006FD463 /* Ch08 */,
-				6D6A035722B25AB1006FD463 /* Ch09 */,
-				6D6A03D722B25AB2006FD463 /* Ch10 */,
+				6D6A030C22B25A6A006FD463 /* 第 1 章 初识 C 语言 */,
+				6D6A032122B25A8C006FD463 /* 第 2 章 C语言概述 */,
+				6D6A032722B25A8C006FD463 /* 第 3 章 数据和C */,
+				6D6A033422B25A8C006FD463 /* 第 4 章 字符串和格式化输入&输出 */,
+				6D6A031022B25A8C006FD463 /* 第 5 章 运算符、表达式和语句 */,
+				6D6A039F22B25AB1006FD463 /* 第 6 章 C控制语句-循环 */,
+				6D6A03CA22B25AB2006FD463 /* 第 7 章 C控制语句-分支和跳转 */,
+				6D6A037622B25AB1006FD463 /* 第 8 章 字符输入&输出和输入验证 */,
+				6D6A035722B25AB1006FD463 /* 第 9 章 函数 */,
+				6D6A03D722B25AB2006FD463 /* 第 10 章 数组和指针 */,
 				6D6A038022B25AB1006FD463 /* Ch11 */,
 				6D6A036622B25AB1006FD463 /* Ch12 */,
 				6D6A03BB22B25AB1006FD463 /* Ch13 */,
@@ -341,17 +337,17 @@
 			path = "C PrimerPlus 6 源码";
 			sourceTree = "<group>";
 		};
-		6D6A030C22B25A6A006FD463 /* Ch01 */ = {
+		6D6A030C22B25A6A006FD463 /* 第 1 章 初识 C 语言 */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A030D22B25A6A006FD463 /* inform.c */,
-				6D6A030E22B25A6A006FD463 /* listing1.c */,
-				6D6A030F22B25A6A006FD463 /* listing2.c */,
+				6D6A030E22B25A6A006FD463 /* 1.1 listing1.c */,
+				6D6A030F22B25A6A006FD463 /* 1.2 listing2.c */,
+				6D6A030D22B25A6A006FD463 /* 1.3 inform.c */,
 			);
-			path = Ch01;
+			path = "第 1 章 初识 C 语言";
 			sourceTree = "<group>";
 		};
-		6D6A031022B25A8C006FD463 /* Ch05 */ = {
+		6D6A031022B25A8C006FD463 /* 第 5 章 运算符、表达式和语句 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A031122B25A8C006FD463 /* squares.c */,
@@ -371,22 +367,22 @@
 				6D6A031F22B25A8C006FD463 /* pound.c */,
 				6D6A032022B25A8C006FD463 /* shoes1.c */,
 			);
-			path = Ch05;
+			path = "第 5 章 运算符、表达式和语句";
 			sourceTree = "<group>";
 		};
-		6D6A032122B25A8C006FD463 /* Ch02 */ = {
+		6D6A032122B25A8C006FD463 /* 第 2 章 C语言概述 */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A032222B25A8C006FD463 /* two_func.c */,
-				6D6A032322B25A8C006FD463 /* first.c */,
-				6D6A032422B25A8C006FD463 /* stillbad.c */,
-				6D6A032522B25A8C006FD463 /* fathm_ft.c */,
-				6D6A032622B25A8C006FD463 /* nogood.c */,
+				6D6A032322B25A8C006FD463 /* 2.1 first.c */,
+				6D6A032522B25A8C006FD463 /* 2.2 fathm_ft.c */,
+				6D6A032222B25A8C006FD463 /* 2.3 two_func.c */,
+				6D6A032622B25A8C006FD463 /* 2.4nogood.c */,
+				6D6A032422B25A8C006FD463 /* 2.5 stillbad.c */,
 			);
-			path = Ch02;
+			path = "第 2 章 C语言概述";
 			sourceTree = "<group>";
 		};
-		6D6A032722B25A8C006FD463 /* Ch03 */ = {
+		6D6A032722B25A8C006FD463 /* 第 3 章 数据和C */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A032822B25A8C006FD463 /* toobig.c */,
@@ -402,10 +398,10 @@
 				6D6A033222B25A8C006FD463 /* altnames.c */,
 				6D6A033322B25A8C006FD463 /* floaterr.c */,
 			);
-			path = Ch03;
+			path = "第 3 章 数据和C";
 			sourceTree = "<group>";
 		};
-		6D6A033422B25A8C006FD463 /* Ch04 */ = {
+		6D6A033422B25A8C006FD463 /* 第 4 章 字符串和格式化输入&输出 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A033522B25A8C006FD463 /* varwid.c */,
@@ -426,7 +422,7 @@
 				6D6A034422B25A8C006FD463 /* floatcnv.c */,
 				6D6A034522B25A8C006FD463 /* defines.c */,
 			);
-			path = Ch04;
+			path = "第 4 章 字符串和格式化输入&输出";
 			sourceTree = "<group>";
 		};
 		6D6A034622B25AB0006FD463 /* Ch14 */ = {
@@ -452,7 +448,7 @@
 			path = Ch14;
 			sourceTree = "<group>";
 		};
-		6D6A035722B25AB1006FD463 /* Ch09 */ = {
+		6D6A035722B25AB1006FD463 /* 第 9 章 函数 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A035822B25AB1006FD463 /* usehotel.c */,
@@ -470,7 +466,7 @@
 				6D6A036422B25AB1006FD463 /* lethead1.c */,
 				6D6A036522B25AB1006FD463 /* hotel.h */,
 			);
-			path = Ch09;
+			path = "第 9 章 函数";
 			sourceTree = "<group>";
 		};
 		6D6A036622B25AB1006FD463 /* Ch12 */ = {
@@ -495,7 +491,7 @@
 			path = Ch12;
 			sourceTree = "<group>";
 		};
-		6D6A037622B25AB1006FD463 /* Ch08 */ = {
+		6D6A037622B25AB1006FD463 /* 第 8 章 字符输入&输出和输入验证 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A037722B25AB1006FD463 /* guess.c */,
@@ -508,7 +504,7 @@
 				6D6A037E22B25AB1006FD463 /* showchar2.c */,
 				6D6A037F22B25AB1006FD463 /* echo.c */,
 			);
-			path = Ch08;
+			path = "第 8 章 字符输入&输出和输入验证";
 			sourceTree = "<group>";
 		};
 		6D6A038022B25AB1006FD463 /* Ch11 */ = {
@@ -548,7 +544,7 @@
 			path = Ch11;
 			sourceTree = "<group>";
 		};
-		6D6A039F22B25AB1006FD463 /* Ch06 */ = {
+		6D6A039F22B25AB1006FD463 /* 第 6 章 C控制语句-循环 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A03A022B25AB1006FD463 /* t_and_f.c */,
@@ -579,7 +575,7 @@
 				6D6A03B922B25AB1006FD463 /* trouble.c */,
 				6D6A03BA22B25AB1006FD463 /* for_none.c */,
 			);
-			path = Ch06;
+			path = "第 6 章 C控制语句-循环";
 			sourceTree = "<group>";
 		};
 		6D6A03BB22B25AB1006FD463 /* Ch13 */ = {
@@ -609,7 +605,7 @@
 			path = Ch15;
 			sourceTree = "<group>";
 		};
-		6D6A03CA22B25AB2006FD463 /* Ch07 */ = {
+		6D6A03CA22B25AB2006FD463 /* 第 7 章 C控制语句-分支和跳转 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A03CB22B25AB2006FD463 /* chcount.c */,
@@ -625,10 +621,10 @@
 				6D6A03D522B25AB2006FD463 /* animals.c */,
 				6D6A03D622B25AB2006FD463 /* skippart.c */,
 			);
-			path = Ch07;
+			path = "第 7 章 C控制语句-分支和跳转";
 			sourceTree = "<group>";
 		};
-		6D6A03D722B25AB2006FD463 /* Ch10 */ = {
+		6D6A03D722B25AB2006FD463 /* 第 10 章 数组和指针 */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A03D822B25AB2006FD463 /* zippo1.c */,
@@ -651,7 +647,7 @@
 				6D6A03E922B25AB2006FD463 /* rain.c */,
 				6D6A03EA22B25AB2006FD463 /* sum_arr2.c */,
 			);
-			path = Ch10;
+			path = "第 10 章 数组和指针";
 			sourceTree = "<group>";
 		};
 		6D6A03EB22B25AC2006FD463 /* Ch16 */ = {
@@ -776,7 +772,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6A041D22B25B79006FD463 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
