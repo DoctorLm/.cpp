@@ -25,6 +25,259 @@
 /* Begin PBXFileReference section */
 		6D6A030122B25871006FD463 /* C Primer Plus(第6版)中文版 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Primer Plus(第6版)中文版"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6A030422B25871006FD463 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6D6A030D22B25A6A006FD463 /* inform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inform.c; sourceTree = "<group>"; };
+		6D6A030E22B25A6A006FD463 /* listing1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = listing1.c; sourceTree = "<group>"; };
+		6D6A030F22B25A6A006FD463 /* listing2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = listing2.c; sourceTree = "<group>"; };
+		6D6A031122B25A8C006FD463 /* squares.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = squares.c; sourceTree = "<group>"; };
+		6D6A031222B25A8C006FD463 /* bottles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bottles.c; sourceTree = "<group>"; };
+		6D6A031322B25A8C006FD463 /* wheat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wheat.c; sourceTree = "<group>"; };
+		6D6A031422B25A8C006FD463 /* addemup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = addemup.c; sourceTree = "<group>"; };
+		6D6A031522B25A8C006FD463 /* convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = convert.c; sourceTree = "<group>"; };
+		6D6A031622B25A8C006FD463 /* rules.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rules.c; sourceTree = "<group>"; };
+		6D6A031722B25A8C006FD463 /* min_sec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = min_sec.c; sourceTree = "<group>"; };
+		6D6A031822B25A8C006FD463 /* running.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = running.c; sourceTree = "<group>"; };
+		6D6A031922B25A8C006FD463 /* golf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = golf.c; sourceTree = "<group>"; };
+		6D6A031A22B25A8C006FD463 /* shoes2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shoes2.c; sourceTree = "<group>"; };
+		6D6A031B22B25A8C006FD463 /* divide.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = divide.c; sourceTree = "<group>"; };
+		6D6A031C22B25A8C006FD463 /* add_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add_one.c; sourceTree = "<group>"; };
+		6D6A031D22B25A8C006FD463 /* post_pre.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = post_pre.c; sourceTree = "<group>"; };
+		6D6A031E22B25A8C006FD463 /* sizeof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sizeof.c; sourceTree = "<group>"; };
+		6D6A031F22B25A8C006FD463 /* pound.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pound.c; sourceTree = "<group>"; };
+		6D6A032022B25A8C006FD463 /* shoes1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shoes1.c; sourceTree = "<group>"; };
+		6D6A032222B25A8C006FD463 /* two_func.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = two_func.c; sourceTree = "<group>"; };
+		6D6A032322B25A8C006FD463 /* first.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = first.c; sourceTree = "<group>"; };
+		6D6A032422B25A8C006FD463 /* stillbad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stillbad.c; sourceTree = "<group>"; };
+		6D6A032522B25A8C006FD463 /* fathm_ft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fathm_ft.c; sourceTree = "<group>"; };
+		6D6A032622B25A8C006FD463 /* nogood.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nogood.c; sourceTree = "<group>"; };
+		6D6A032822B25A8C006FD463 /* toobig.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = toobig.c; sourceTree = "<group>"; };
+		6D6A032922B25A8C006FD463 /* print2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print2.c; sourceTree = "<group>"; };
+		6D6A032A22B25A8C006FD463 /* escape.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = escape.c; sourceTree = "<group>"; };
+		6D6A032B22B25A8C006FD463 /* showf_pt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = showf_pt.c; sourceTree = "<group>"; };
+		6D6A032C22B25A8C006FD463 /* bases.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bases.c; sourceTree = "<group>"; };
+		6D6A032D22B25A8C006FD463 /* badcount.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = badcount.c; sourceTree = "<group>"; };
+		6D6A032E22B25A8C006FD463 /* print1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print1.c; sourceTree = "<group>"; };
+		6D6A032F22B25A8C006FD463 /* platinum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = platinum.c; sourceTree = "<group>"; };
+		6D6A033022B25A8C006FD463 /* charcode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = charcode.c; sourceTree = "<group>"; };
+		6D6A033122B25A8C006FD463 /* typesize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = typesize.c; sourceTree = "<group>"; };
+		6D6A033222B25A8C006FD463 /* altnames.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = altnames.c; sourceTree = "<group>"; };
+		6D6A033322B25A8C006FD463 /* floaterr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = floaterr.c; sourceTree = "<group>"; };
+		6D6A033522B25A8C006FD463 /* varwid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = varwid.c; sourceTree = "<group>"; };
+		6D6A033622B25A8C006FD463 /* pizza.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pizza.c; sourceTree = "<group>"; };
+		6D6A033722B25A8C006FD463 /* longstrg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longstrg.c; sourceTree = "<group>"; };
+		6D6A033822B25A8C006FD463 /* printout.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = printout.c; sourceTree = "<group>"; };
+		6D6A033922B25A8C006FD463 /* stringf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stringf.c; sourceTree = "<group>"; };
+		6D6A033A22B25A8C006FD463 /* praise2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = praise2.c; sourceTree = "<group>"; };
+		6D6A033B22B25A8C006FD463 /* input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = input.c; sourceTree = "<group>"; };
+		6D6A033C22B25A8C006FD463 /* intconv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = intconv.c; sourceTree = "<group>"; };
+		6D6A033D22B25A8C006FD463 /* talkback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = talkback.c; sourceTree = "<group>"; };
+		6D6A033E22B25A8C006FD463 /* floats.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = floats.c; sourceTree = "<group>"; };
+		6D6A033F22B25A8C006FD463 /* skiptwo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = skiptwo.c; sourceTree = "<group>"; };
+		6D6A034022B25A8C006FD463 /* width.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = width.c; sourceTree = "<group>"; };
+		6D6A034122B25A8C006FD463 /* prntval.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prntval.c; sourceTree = "<group>"; };
+		6D6A034222B25A8C006FD463 /* praise1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = praise1.c; sourceTree = "<group>"; };
+		6D6A034322B25A8C006FD463 /* flags.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = flags.c; sourceTree = "<group>"; };
+		6D6A034422B25A8C006FD463 /* floatcnv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = floatcnv.c; sourceTree = "<group>"; };
+		6D6A034522B25A8C006FD463 /* defines.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = defines.c; sourceTree = "<group>"; };
+		6D6A034722B25AB0006FD463 /* manybook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = manybook.c; sourceTree = "<group>"; };
+		6D6A034822B25AB0006FD463 /* names2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = names2.c; sourceTree = "<group>"; };
+		6D6A034922B25AB0006FD463 /* booksave.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = booksave.c; sourceTree = "<group>"; };
+		6D6A034A22B25AB0006FD463 /* funds2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = funds2.c; sourceTree = "<group>"; };
+		6D6A034B22B25AB0006FD463 /* names1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = names1.c; sourceTree = "<group>"; };
+		6D6A034C22B25AB0006FD463 /* funds1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = funds1.c; sourceTree = "<group>"; };
+		6D6A034D22B25AB0006FD463 /* complit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = complit.c; sourceTree = "<group>"; };
+		6D6A034E22B25AB0006FD463 /* book.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = book.c; sourceTree = "<group>"; };
+		6D6A034F22B25AB0006FD463 /* enum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enum.c; sourceTree = "<group>"; };
+		6D6A035022B25AB0006FD463 /* friends.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = friends.c; sourceTree = "<group>"; };
+		6D6A035122B25AB0006FD463 /* friend.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = friend.c; sourceTree = "<group>"; };
+		6D6A035222B25AB0006FD463 /* funds4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = funds4.c; sourceTree = "<group>"; };
+		6D6A035322B25AB0006FD463 /* names3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = names3.c; sourceTree = "<group>"; };
+		6D6A035422B25AB0006FD463 /* funct_ptr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = funct_ptr.c; sourceTree = "<group>"; };
+		6D6A035522B25AB0006FD463 /* funds3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = funds3.c; sourceTree = "<group>"; };
+		6D6A035622B25AB0006FD463 /* flexmemb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = flexmemb.c; sourceTree = "<group>"; };
+		6D6A035822B25AB1006FD463 /* usehotel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usehotel.c; sourceTree = "<group>"; };
+		6D6A035922B25AB1006FD463 /* factor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = factor.c; sourceTree = "<group>"; };
+		6D6A035A22B25AB1006FD463 /* loccheck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loccheck.c; sourceTree = "<group>"; };
+		6D6A035B22B25AB1006FD463 /* misuse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = misuse.c; sourceTree = "<group>"; };
+		6D6A035C22B25AB1006FD463 /* recur.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = recur.c; sourceTree = "<group>"; };
+		6D6A035D22B25AB1006FD463 /* binary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binary.c; sourceTree = "<group>"; };
+		6D6A035E22B25AB1006FD463 /* hotel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hotel.c; sourceTree = "<group>"; };
+		6D6A035F22B25AB1006FD463 /* swap1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swap1.c; sourceTree = "<group>"; };
+		6D6A036022B25AB1006FD463 /* lethead2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lethead2.c; sourceTree = "<group>"; };
+		6D6A036122B25AB1006FD463 /* proto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = proto.c; sourceTree = "<group>"; };
+		6D6A036222B25AB1006FD463 /* lesser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lesser.c; sourceTree = "<group>"; };
+		6D6A036322B25AB1006FD463 /* swap2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swap2.c; sourceTree = "<group>"; };
+		6D6A036422B25AB1006FD463 /* lethead1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lethead1.c; sourceTree = "<group>"; };
+		6D6A036522B25AB1006FD463 /* hotel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hotel.h; sourceTree = "<group>"; };
+		6D6A036722B25AB1006FD463 /* forc99.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = forc99.c; sourceTree = "<group>"; };
+		6D6A036822B25AB1006FD463 /* dyn_arr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dyn_arr.c; sourceTree = "<group>"; };
+		6D6A036922B25AB1006FD463 /* hiding.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hiding.c; sourceTree = "<group>"; };
+		6D6A036A22B25AB1006FD463 /* parta.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parta.c; sourceTree = "<group>"; };
+		6D6A036B22B25AB1006FD463 /* s_and_r.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s_and_r.c; sourceTree = "<group>"; };
+		6D6A036C22B25AB1006FD463 /* where.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = where.c; sourceTree = "<group>"; };
+		6D6A036D22B25AB1006FD463 /* r_drive0.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_drive0.c; sourceTree = "<group>"; };
+		6D6A036E22B25AB1006FD463 /* loc_stat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loc_stat.c; sourceTree = "<group>"; };
+		6D6A036F22B25AB1006FD463 /* partb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = partb.c; sourceTree = "<group>"; };
+		6D6A037022B25AB1006FD463 /* diceroll.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = diceroll.c; sourceTree = "<group>"; };
+		6D6A037122B25AB1006FD463 /* rand0.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand0.c; sourceTree = "<group>"; };
+		6D6A037222B25AB1006FD463 /* r_drive1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = r_drive1.c; sourceTree = "<group>"; };
+		6D6A037322B25AB1006FD463 /* global.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = global.c; sourceTree = "<group>"; };
+		6D6A037422B25AB1006FD463 /* manydice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = manydice.c; sourceTree = "<group>"; };
+		6D6A037522B25AB1006FD463 /* diceroll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diceroll.h; sourceTree = "<group>"; };
+		6D6A037722B25AB1006FD463 /* guess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = guess.c; sourceTree = "<group>"; };
+		6D6A037822B25AB1006FD463 /* menuette.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = menuette.c; sourceTree = "<group>"; };
+		6D6A037922B25AB1006FD463 /* checking.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = checking.c; sourceTree = "<group>"; };
+		6D6A037A22B25AB1006FD463 /* file_eof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file_eof.c; sourceTree = "<group>"; };
+		6D6A037B22B25AB1006FD463 /* newguess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = newguess.c; sourceTree = "<group>"; };
+		6D6A037C22B25AB1006FD463 /* showchar1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = showchar1.c; sourceTree = "<group>"; };
+		6D6A037D22B25AB1006FD463 /* echo_eof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = echo_eof.c; sourceTree = "<group>"; };
+		6D6A037E22B25AB1006FD463 /* showchar2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = showchar2.c; sourceTree = "<group>"; };
+		6D6A037F22B25AB1006FD463 /* echo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = echo.c; sourceTree = "<group>"; };
+		6D6A038122B25AB1006FD463 /* compare.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compare.c; sourceTree = "<group>"; };
+		6D6A038222B25AB1006FD463 /* name1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = name1.c; sourceTree = "<group>"; };
+		6D6A038322B25AB1006FD463 /* nogo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nogo.c; sourceTree = "<group>"; };
+		6D6A038422B25AB1006FD463 /* mod_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mod_str.c; sourceTree = "<group>"; };
+		6D6A038522B25AB1006FD463 /* compback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compback.c; sourceTree = "<group>"; };
+		6D6A038622B25AB1006FD463 /* copy3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = copy3.c; sourceTree = "<group>"; };
+		6D6A038722B25AB1006FD463 /* fgets3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fgets3.c; sourceTree = "<group>"; };
+		6D6A038822B25AB1006FD463 /* strptr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strptr.c; sourceTree = "<group>"; };
+		6D6A038922B25AB1006FD463 /* strings1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strings1.c; sourceTree = "<group>"; };
+		6D6A038A22B25AB1006FD463 /* put_put.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = put_put.c; sourceTree = "<group>"; };
+		6D6A038B22B25AB1006FD463 /* format.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = format.c; sourceTree = "<group>"; };
+		6D6A038C22B25AB1006FD463 /* str_cat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = str_cat.c; sourceTree = "<group>"; };
+		6D6A038D22B25AB1006FD463 /* getsputs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getsputs.c; sourceTree = "<group>"; };
+		6D6A038E22B25AB1006FD463 /* starsrch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = starsrch.c; sourceTree = "<group>"; };
+		6D6A038F22B25AB1006FD463 /* repeat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = repeat.c; sourceTree = "<group>"; };
+		6D6A039022B25AB1006FD463 /* addresses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = addresses.c; sourceTree = "<group>"; };
+		6D6A039122B25AB1006FD463 /* strcnvt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strcnvt.c; sourceTree = "<group>"; };
+		6D6A039222B25AB1006FD463 /* fgets1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fgets1.c; sourceTree = "<group>"; };
+		6D6A039322B25AB1006FD463 /* copy1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = copy1.c; sourceTree = "<group>"; };
+		6D6A039422B25AB1006FD463 /* nono.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nono.c; sourceTree = "<group>"; };
+		6D6A039522B25AB1006FD463 /* p_and_s.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_and_s.c; sourceTree = "<group>"; };
+		6D6A039622B25AB1006FD463 /* arrchar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arrchar.c; sourceTree = "<group>"; };
+		6D6A039722B25AB1006FD463 /* join_chk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = join_chk.c; sourceTree = "<group>"; };
+		6D6A039822B25AB1006FD463 /* quit_chk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quit_chk.c; sourceTree = "<group>"; };
+		6D6A039922B25AB1006FD463 /* scan_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scan_str.c; sourceTree = "<group>"; };
+		6D6A039A22B25AB1006FD463 /* sort_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort_str.c; sourceTree = "<group>"; };
+		6D6A039B22B25AB1006FD463 /* test_fit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_fit.c; sourceTree = "<group>"; };
+		6D6A039C22B25AB1006FD463 /* copy2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = copy2.c; sourceTree = "<group>"; };
+		6D6A039D22B25AB1006FD463 /* fgets2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fgets2.c; sourceTree = "<group>"; };
+		6D6A039E22B25AB1006FD463 /* put_out.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = put_out.c; sourceTree = "<group>"; };
+		6D6A03A022B25AB1006FD463 /* t_and_f.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_and_f.c; sourceTree = "<group>"; };
+		6D6A03A122B25AB1006FD463 /* cmpflt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmpflt.c; sourceTree = "<group>"; };
+		6D6A03A222B25AB1006FD463 /* while2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = while2.c; sourceTree = "<group>"; };
+		6D6A03A322B25AB1006FD463 /* summing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = summing.c; sourceTree = "<group>"; };
+		6D6A03A422B25AB1006FD463 /* rows1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rows1.c; sourceTree = "<group>"; };
+		6D6A03A522B25AB1006FD463 /* boolean.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = boolean.c; sourceTree = "<group>"; };
+		6D6A03A622B25AB1006FD463 /* truth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = truth.c; sourceTree = "<group>"; };
+		6D6A03A722B25AB1006FD463 /* when.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = when.c; sourceTree = "<group>"; };
+		6D6A03A822B25AB1006FD463 /* sweetie2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sweetie2.c; sourceTree = "<group>"; };
+		6D6A03A922B25AB1006FD463 /* scores_in.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scores_in.c; sourceTree = "<group>"; };
+		6D6A03AA22B25AB1006FD463 /* for_down.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_down.c; sourceTree = "<group>"; };
+		6D6A03AB22B25AB1006FD463 /* while1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = while1.c; sourceTree = "<group>"; };
+		6D6A03AC22B25AB1006FD463 /* for_show.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_show.c; sourceTree = "<group>"; };
+		6D6A03AD22B25AB1006FD463 /* zeno.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zeno.c; sourceTree = "<group>"; };
+		6D6A03AE22B25AB1006FD463 /* rows2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rows2.c; sourceTree = "<group>"; };
+		6D6A03AF22B25AB1006FD463 /* for_char.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_char.c; sourceTree = "<group>"; };
+		6D6A03B022B25AB1006FD463 /* sweetie1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sweetie1.c; sourceTree = "<group>"; };
+		6D6A03B122B25AB1006FD463 /* for_13s.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_13s.c; sourceTree = "<group>"; };
+		6D6A03B222B25AB1006FD463 /* power.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = power.c; sourceTree = "<group>"; };
+		6D6A03B322B25AB1006FD463 /* for_geo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_geo.c; sourceTree = "<group>"; };
+		6D6A03B422B25AB1006FD463 /* for_cube.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_cube.c; sourceTree = "<group>"; };
+		6D6A03B522B25AB1006FD463 /* do_while.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = do_while.c; sourceTree = "<group>"; };
+		6D6A03B622B25AB1006FD463 /* for_wild.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_wild.c; sourceTree = "<group>"; };
+		6D6A03B722B25AB1006FD463 /* postage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = postage.c; sourceTree = "<group>"; };
+		6D6A03B822B25AB1006FD463 /* entry.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = entry.c; sourceTree = "<group>"; };
+		6D6A03B922B25AB1006FD463 /* trouble.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trouble.c; sourceTree = "<group>"; };
+		6D6A03BA22B25AB1006FD463 /* for_none.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = for_none.c; sourceTree = "<group>"; };
+		6D6A03BC22B25AB2006FD463 /* addaword.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = addaword.c; sourceTree = "<group>"; };
+		6D6A03BD22B25AB2006FD463 /* eddy */ = {isa = PBXFileReference; lastKnownFileType = text; path = eddy; sourceTree = "<group>"; };
+		6D6A03BE22B25AB2006FD463 /* reducto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reducto.c; sourceTree = "<group>"; };
+		6D6A03BF22B25AB2006FD463 /* append.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = append.c; sourceTree = "<group>"; };
+		6D6A03C022B25AB2006FD463 /* wordy */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordy; sourceTree = "<group>"; };
+		6D6A03C122B25AB2006FD463 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
+		6D6A03C222B25AB2006FD463 /* randbin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = randbin.c; sourceTree = "<group>"; };
+		6D6A03C322B25AB2006FD463 /* count.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = count.c; sourceTree = "<group>"; };
+		6D6A03C522B25AB2006FD463 /* align.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = align.c; sourceTree = "<group>"; };
+		6D6A03C622B25AB2006FD463 /* dualview.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dualview.c; sourceTree = "<group>"; };
+		6D6A03C722B25AB2006FD463 /* binbit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binbit.c; sourceTree = "<group>"; };
+		6D6A03C822B25AB2006FD463 /* invert4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = invert4.c; sourceTree = "<group>"; };
+		6D6A03C922B25AB2006FD463 /* fields.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fields.c; sourceTree = "<group>"; };
+		6D6A03CB22B25AB2006FD463 /* chcount.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chcount.c; sourceTree = "<group>"; };
+		6D6A03CC22B25AB2006FD463 /* cypher1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cypher1.c; sourceTree = "<group>"; };
+		6D6A03CD22B25AB2006FD463 /* break.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = break.c; sourceTree = "<group>"; };
+		6D6A03CE22B25AB2006FD463 /* wordcnt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wordcnt.c; sourceTree = "<group>"; };
+		6D6A03CF22B25AB2006FD463 /* cypher2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cypher2.c; sourceTree = "<group>"; };
+		6D6A03D022B25AB2006FD463 /* paint.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = paint.c; sourceTree = "<group>"; };
+		6D6A03D122B25AB2006FD463 /* electric.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = electric.c; sourceTree = "<group>"; };
+		6D6A03D222B25AB2006FD463 /* colddays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = colddays.c; sourceTree = "<group>"; };
+		6D6A03D322B25AB2006FD463 /* divisors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = divisors.c; sourceTree = "<group>"; };
+		6D6A03D422B25AB2006FD463 /* vowels.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vowels.c; sourceTree = "<group>"; };
+		6D6A03D522B25AB2006FD463 /* animals.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = animals.c; sourceTree = "<group>"; };
+		6D6A03D622B25AB2006FD463 /* skippart.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = skippart.c; sourceTree = "<group>"; };
+		6D6A03D822B25AB2006FD463 /* zippo1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zippo1.c; sourceTree = "<group>"; };
+		6D6A03D922B25AB2006FD463 /* order.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = order.c; sourceTree = "<group>"; };
+		6D6A03DA22B25AB2006FD463 /* arf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arf.c; sourceTree = "<group>"; };
+		6D6A03DB22B25AB2006FD463 /* bounds.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bounds.c; sourceTree = "<group>"; };
+		6D6A03DC22B25AB2006FD463 /* flc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = flc.c; sourceTree = "<group>"; };
+		6D6A03DD22B25AB2006FD463 /* vararr2d.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vararr2d.c; sourceTree = "<group>"; };
+		6D6A03DE22B25AB2006FD463 /* ptr_ops.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ptr_ops.c; sourceTree = "<group>"; };
+		6D6A03DF22B25AB2006FD463 /* zippo2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zippo2.c; sourceTree = "<group>"; };
+		6D6A03E022B25AB2006FD463 /* day_mon3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day_mon3.c; sourceTree = "<group>"; };
+		6D6A03E122B25AB2006FD463 /* some_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = some_data.c; sourceTree = "<group>"; };
+		6D6A03E222B25AB2006FD463 /* array2d.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array2d.c; sourceTree = "<group>"; };
+		6D6A03E322B25AB2006FD463 /* designate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = designate.c; sourceTree = "<group>"; };
+		6D6A03E422B25AB2006FD463 /* day_mon2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day_mon2.c; sourceTree = "<group>"; };
+		6D6A03E522B25AB2006FD463 /* sum_arr1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sum_arr1.c; sourceTree = "<group>"; };
+		6D6A03E622B25AB2006FD463 /* pnt_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pnt_add.c; sourceTree = "<group>"; };
+		6D6A03E722B25AB2006FD463 /* no_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = no_data.c; sourceTree = "<group>"; };
+		6D6A03E822B25AB2006FD463 /* day_mon1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day_mon1.c; sourceTree = "<group>"; };
+		6D6A03E922B25AB2006FD463 /* rain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rain.c; sourceTree = "<group>"; };
+		6D6A03EA22B25AB2006FD463 /* sum_arr2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sum_arr2.c; sourceTree = "<group>"; };
+		6D6A03EC22B25AC2006FD463 /* preproc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = preproc.c; sourceTree = "<group>"; };
+		6D6A03ED22B25AC2006FD463 /* file2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file2.c; sourceTree = "<group>"; };
+		6D6A03EE22B25AC2006FD463 /* varargs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = varargs.c; sourceTree = "<group>"; };
+		6D6A03EF22B25AC2006FD463 /* rect_pol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rect_pol.c; sourceTree = "<group>"; };
+		6D6A03F022B25AC2006FD463 /* statasrt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = statasrt.c; sourceTree = "<group>"; };
+		6D6A03F122B25AC2006FD463 /* mems.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mems.c; sourceTree = "<group>"; };
+		6D6A03F222B25AC2006FD463 /* file1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file1.c; sourceTree = "<group>"; };
+		6D6A03F322B25AC2006FD463 /* predef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = predef.c; sourceTree = "<group>"; };
+		6D6A03F422B25AC2006FD463 /* variadic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = variadic.c; sourceTree = "<group>"; };
+		6D6A03F522B25AC2006FD463 /* names_st.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = names_st.h; sourceTree = "<group>"; };
+		6D6A03F622B25AC2006FD463 /* assert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = assert.c; sourceTree = "<group>"; };
+		6D6A03F722B25AC2006FD463 /* eatline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eatline.h; sourceTree = "<group>"; };
+		6D6A03F822B25AC2006FD463 /* el1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = el1.c; sourceTree = "<group>"; };
+		6D6A03F922B25AC2006FD463 /* doubleincl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = doubleincl.c; sourceTree = "<group>"; };
+		6D6A03FA22B25AC2006FD463 /* generic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = generic.c; sourceTree = "<group>"; };
+		6D6A03FB22B25AC2006FD463 /* names.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = names.h; sourceTree = "<group>"; };
+		6D6A03FC22B25AC2006FD463 /* ifdef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ifdef.c; sourceTree = "<group>"; };
+		6D6A03FD22B25AC2006FD463 /* qsorter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = qsorter.c; sourceTree = "<group>"; };
+		6D6A03FE22B25AC2006FD463 /* mytype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mytype.c; sourceTree = "<group>"; };
+		6D6A03FF22B25AC2006FD463 /* el2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = el2.c; sourceTree = "<group>"; };
+		6D6A040022B25AC2006FD463 /* byebye.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = byebye.c; sourceTree = "<group>"; };
+		6D6A040122B25AC2006FD463 /* mac_arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_arg.c; sourceTree = "<group>"; };
+		6D6A040222B25AC2006FD463 /* file3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file3.c; sourceTree = "<group>"; };
+		6D6A040322B25AC2006FD463 /* useheader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = useheader.c; sourceTree = "<group>"; };
+		6D6A040422B25AC2006FD463 /* names_st.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = names_st.c; sourceTree = "<group>"; };
+		6D6A040522B25AC2006FD463 /* subst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = subst.c; sourceTree = "<group>"; };
+		6D6A040622B25AC2006FD463 /* glue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glue.c; sourceTree = "<group>"; };
+		6D6A040822B25AC3006FD463 /* def.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = def.c; sourceTree = "<group>"; };
+		6D6A040922B25AC3006FD463 /* complex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = complex.c; sourceTree = "<group>"; };
+		6D6A040A22B25AC3006FD463 /* strrtok.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strrtok.c; sourceTree = "<group>"; };
+		6D6A040B22B25AC3006FD463 /* wider.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wider.c; sourceTree = "<group>"; };
+		6D6A040C22B25AC3006FD463 /* offset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = offset.c; sourceTree = "<group>"; };
+		6D6A040D22B25AC3006FD463 /* complex0.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = complex0.c; sourceTree = "<group>"; };
+		6D6A040F22B25AC3006FD463 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		6D6A041022B25AC3006FD463 /* films1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = films1.c; sourceTree = "<group>"; };
+		6D6A041122B25AC3006FD463 /* mall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mall.c; sourceTree = "<group>"; };
+		6D6A041222B25AC3006FD463 /* films2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = films2.c; sourceTree = "<group>"; };
+		6D6A041322B25AC3006FD463 /* tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		6D6A041422B25AC3006FD463 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		6D6A041522B25AC3006FD463 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		6D6A041622B25AC3006FD463 /* films3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = films3.c; sourceTree = "<group>"; };
+		6D6A041722B25AC3006FD463 /* use_q.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = use_q.c; sourceTree = "<group>"; };
+		6D6A041822B25AC3006FD463 /* petclub.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = petclub.c; sourceTree = "<group>"; };
+		6D6A041922B25AC3006FD463 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		6D6A041A22B25AC3006FD463 /* tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +319,405 @@
 		6D6A030B22B25A2E006FD463 /* C PrimerPlus 6 源码 */ = {
 			isa = PBXGroup;
 			children = (
+				6D6A030C22B25A6A006FD463 /* Ch01 */,
+				6D6A032122B25A8C006FD463 /* Ch02 */,
+				6D6A032722B25A8C006FD463 /* Ch03 */,
+				6D6A033422B25A8C006FD463 /* Ch04 */,
+				6D6A031022B25A8C006FD463 /* Ch05 */,
+				6D6A039F22B25AB1006FD463 /* Ch06 */,
+				6D6A03CA22B25AB2006FD463 /* Ch07 */,
+				6D6A037622B25AB1006FD463 /* Ch08 */,
+				6D6A035722B25AB1006FD463 /* Ch09 */,
+				6D6A03D722B25AB2006FD463 /* Ch10 */,
+				6D6A038022B25AB1006FD463 /* Ch11 */,
+				6D6A036622B25AB1006FD463 /* Ch12 */,
+				6D6A03BB22B25AB1006FD463 /* Ch13 */,
+				6D6A034622B25AB0006FD463 /* Ch14 */,
+				6D6A03C422B25AB2006FD463 /* Ch15 */,
+				6D6A03EB22B25AC2006FD463 /* Ch16 */,
+				6D6A040E22B25AC3006FD463 /* Ch17 */,
+				6D6A040722B25AC3006FD463 /* XB */,
 			);
 			path = "C PrimerPlus 6 源码";
+			sourceTree = "<group>";
+		};
+		6D6A030C22B25A6A006FD463 /* Ch01 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A030D22B25A6A006FD463 /* inform.c */,
+				6D6A030E22B25A6A006FD463 /* listing1.c */,
+				6D6A030F22B25A6A006FD463 /* listing2.c */,
+			);
+			path = Ch01;
+			sourceTree = "<group>";
+		};
+		6D6A031022B25A8C006FD463 /* Ch05 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A031122B25A8C006FD463 /* squares.c */,
+				6D6A031222B25A8C006FD463 /* bottles.c */,
+				6D6A031322B25A8C006FD463 /* wheat.c */,
+				6D6A031422B25A8C006FD463 /* addemup.c */,
+				6D6A031522B25A8C006FD463 /* convert.c */,
+				6D6A031622B25A8C006FD463 /* rules.c */,
+				6D6A031722B25A8C006FD463 /* min_sec.c */,
+				6D6A031822B25A8C006FD463 /* running.c */,
+				6D6A031922B25A8C006FD463 /* golf.c */,
+				6D6A031A22B25A8C006FD463 /* shoes2.c */,
+				6D6A031B22B25A8C006FD463 /* divide.c */,
+				6D6A031C22B25A8C006FD463 /* add_one.c */,
+				6D6A031D22B25A8C006FD463 /* post_pre.c */,
+				6D6A031E22B25A8C006FD463 /* sizeof.c */,
+				6D6A031F22B25A8C006FD463 /* pound.c */,
+				6D6A032022B25A8C006FD463 /* shoes1.c */,
+			);
+			path = Ch05;
+			sourceTree = "<group>";
+		};
+		6D6A032122B25A8C006FD463 /* Ch02 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A032222B25A8C006FD463 /* two_func.c */,
+				6D6A032322B25A8C006FD463 /* first.c */,
+				6D6A032422B25A8C006FD463 /* stillbad.c */,
+				6D6A032522B25A8C006FD463 /* fathm_ft.c */,
+				6D6A032622B25A8C006FD463 /* nogood.c */,
+			);
+			path = Ch02;
+			sourceTree = "<group>";
+		};
+		6D6A032722B25A8C006FD463 /* Ch03 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A032822B25A8C006FD463 /* toobig.c */,
+				6D6A032922B25A8C006FD463 /* print2.c */,
+				6D6A032A22B25A8C006FD463 /* escape.c */,
+				6D6A032B22B25A8C006FD463 /* showf_pt.c */,
+				6D6A032C22B25A8C006FD463 /* bases.c */,
+				6D6A032D22B25A8C006FD463 /* badcount.c */,
+				6D6A032E22B25A8C006FD463 /* print1.c */,
+				6D6A032F22B25A8C006FD463 /* platinum.c */,
+				6D6A033022B25A8C006FD463 /* charcode.c */,
+				6D6A033122B25A8C006FD463 /* typesize.c */,
+				6D6A033222B25A8C006FD463 /* altnames.c */,
+				6D6A033322B25A8C006FD463 /* floaterr.c */,
+			);
+			path = Ch03;
+			sourceTree = "<group>";
+		};
+		6D6A033422B25A8C006FD463 /* Ch04 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A033522B25A8C006FD463 /* varwid.c */,
+				6D6A033622B25A8C006FD463 /* pizza.c */,
+				6D6A033722B25A8C006FD463 /* longstrg.c */,
+				6D6A033822B25A8C006FD463 /* printout.c */,
+				6D6A033922B25A8C006FD463 /* stringf.c */,
+				6D6A033A22B25A8C006FD463 /* praise2.c */,
+				6D6A033B22B25A8C006FD463 /* input.c */,
+				6D6A033C22B25A8C006FD463 /* intconv.c */,
+				6D6A033D22B25A8C006FD463 /* talkback.c */,
+				6D6A033E22B25A8C006FD463 /* floats.c */,
+				6D6A033F22B25A8C006FD463 /* skiptwo.c */,
+				6D6A034022B25A8C006FD463 /* width.c */,
+				6D6A034122B25A8C006FD463 /* prntval.c */,
+				6D6A034222B25A8C006FD463 /* praise1.c */,
+				6D6A034322B25A8C006FD463 /* flags.c */,
+				6D6A034422B25A8C006FD463 /* floatcnv.c */,
+				6D6A034522B25A8C006FD463 /* defines.c */,
+			);
+			path = Ch04;
+			sourceTree = "<group>";
+		};
+		6D6A034622B25AB0006FD463 /* Ch14 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A034722B25AB0006FD463 /* manybook.c */,
+				6D6A034822B25AB0006FD463 /* names2.c */,
+				6D6A034922B25AB0006FD463 /* booksave.c */,
+				6D6A034A22B25AB0006FD463 /* funds2.c */,
+				6D6A034B22B25AB0006FD463 /* names1.c */,
+				6D6A034C22B25AB0006FD463 /* funds1.c */,
+				6D6A034D22B25AB0006FD463 /* complit.c */,
+				6D6A034E22B25AB0006FD463 /* book.c */,
+				6D6A034F22B25AB0006FD463 /* enum.c */,
+				6D6A035022B25AB0006FD463 /* friends.c */,
+				6D6A035122B25AB0006FD463 /* friend.c */,
+				6D6A035222B25AB0006FD463 /* funds4.c */,
+				6D6A035322B25AB0006FD463 /* names3.c */,
+				6D6A035422B25AB0006FD463 /* funct_ptr.c */,
+				6D6A035522B25AB0006FD463 /* funds3.c */,
+				6D6A035622B25AB0006FD463 /* flexmemb.c */,
+			);
+			path = Ch14;
+			sourceTree = "<group>";
+		};
+		6D6A035722B25AB1006FD463 /* Ch09 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A035822B25AB1006FD463 /* usehotel.c */,
+				6D6A035922B25AB1006FD463 /* factor.c */,
+				6D6A035A22B25AB1006FD463 /* loccheck.c */,
+				6D6A035B22B25AB1006FD463 /* misuse.c */,
+				6D6A035C22B25AB1006FD463 /* recur.c */,
+				6D6A035D22B25AB1006FD463 /* binary.c */,
+				6D6A035E22B25AB1006FD463 /* hotel.c */,
+				6D6A035F22B25AB1006FD463 /* swap1.c */,
+				6D6A036022B25AB1006FD463 /* lethead2.c */,
+				6D6A036122B25AB1006FD463 /* proto.c */,
+				6D6A036222B25AB1006FD463 /* lesser.c */,
+				6D6A036322B25AB1006FD463 /* swap2.c */,
+				6D6A036422B25AB1006FD463 /* lethead1.c */,
+				6D6A036522B25AB1006FD463 /* hotel.h */,
+			);
+			path = Ch09;
+			sourceTree = "<group>";
+		};
+		6D6A036622B25AB1006FD463 /* Ch12 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A036722B25AB1006FD463 /* forc99.c */,
+				6D6A036822B25AB1006FD463 /* dyn_arr.c */,
+				6D6A036922B25AB1006FD463 /* hiding.c */,
+				6D6A036A22B25AB1006FD463 /* parta.c */,
+				6D6A036B22B25AB1006FD463 /* s_and_r.c */,
+				6D6A036C22B25AB1006FD463 /* where.c */,
+				6D6A036D22B25AB1006FD463 /* r_drive0.c */,
+				6D6A036E22B25AB1006FD463 /* loc_stat.c */,
+				6D6A036F22B25AB1006FD463 /* partb.c */,
+				6D6A037022B25AB1006FD463 /* diceroll.c */,
+				6D6A037122B25AB1006FD463 /* rand0.c */,
+				6D6A037222B25AB1006FD463 /* r_drive1.c */,
+				6D6A037322B25AB1006FD463 /* global.c */,
+				6D6A037422B25AB1006FD463 /* manydice.c */,
+				6D6A037522B25AB1006FD463 /* diceroll.h */,
+			);
+			path = Ch12;
+			sourceTree = "<group>";
+		};
+		6D6A037622B25AB1006FD463 /* Ch08 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A037722B25AB1006FD463 /* guess.c */,
+				6D6A037822B25AB1006FD463 /* menuette.c */,
+				6D6A037922B25AB1006FD463 /* checking.c */,
+				6D6A037A22B25AB1006FD463 /* file_eof.c */,
+				6D6A037B22B25AB1006FD463 /* newguess.c */,
+				6D6A037C22B25AB1006FD463 /* showchar1.c */,
+				6D6A037D22B25AB1006FD463 /* echo_eof.c */,
+				6D6A037E22B25AB1006FD463 /* showchar2.c */,
+				6D6A037F22B25AB1006FD463 /* echo.c */,
+			);
+			path = Ch08;
+			sourceTree = "<group>";
+		};
+		6D6A038022B25AB1006FD463 /* Ch11 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A038122B25AB1006FD463 /* compare.c */,
+				6D6A038222B25AB1006FD463 /* name1.c */,
+				6D6A038322B25AB1006FD463 /* nogo.c */,
+				6D6A038422B25AB1006FD463 /* mod_str.c */,
+				6D6A038522B25AB1006FD463 /* compback.c */,
+				6D6A038622B25AB1006FD463 /* copy3.c */,
+				6D6A038722B25AB1006FD463 /* fgets3.c */,
+				6D6A038822B25AB1006FD463 /* strptr.c */,
+				6D6A038922B25AB1006FD463 /* strings1.c */,
+				6D6A038A22B25AB1006FD463 /* put_put.c */,
+				6D6A038B22B25AB1006FD463 /* format.c */,
+				6D6A038C22B25AB1006FD463 /* str_cat.c */,
+				6D6A038D22B25AB1006FD463 /* getsputs.c */,
+				6D6A038E22B25AB1006FD463 /* starsrch.c */,
+				6D6A038F22B25AB1006FD463 /* repeat.c */,
+				6D6A039022B25AB1006FD463 /* addresses.c */,
+				6D6A039122B25AB1006FD463 /* strcnvt.c */,
+				6D6A039222B25AB1006FD463 /* fgets1.c */,
+				6D6A039322B25AB1006FD463 /* copy1.c */,
+				6D6A039422B25AB1006FD463 /* nono.c */,
+				6D6A039522B25AB1006FD463 /* p_and_s.c */,
+				6D6A039622B25AB1006FD463 /* arrchar.c */,
+				6D6A039722B25AB1006FD463 /* join_chk.c */,
+				6D6A039822B25AB1006FD463 /* quit_chk.c */,
+				6D6A039922B25AB1006FD463 /* scan_str.c */,
+				6D6A039A22B25AB1006FD463 /* sort_str.c */,
+				6D6A039B22B25AB1006FD463 /* test_fit.c */,
+				6D6A039C22B25AB1006FD463 /* copy2.c */,
+				6D6A039D22B25AB1006FD463 /* fgets2.c */,
+				6D6A039E22B25AB1006FD463 /* put_out.c */,
+			);
+			path = Ch11;
+			sourceTree = "<group>";
+		};
+		6D6A039F22B25AB1006FD463 /* Ch06 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A03A022B25AB1006FD463 /* t_and_f.c */,
+				6D6A03A122B25AB1006FD463 /* cmpflt.c */,
+				6D6A03A222B25AB1006FD463 /* while2.c */,
+				6D6A03A322B25AB1006FD463 /* summing.c */,
+				6D6A03A422B25AB1006FD463 /* rows1.c */,
+				6D6A03A522B25AB1006FD463 /* boolean.c */,
+				6D6A03A622B25AB1006FD463 /* truth.c */,
+				6D6A03A722B25AB1006FD463 /* when.c */,
+				6D6A03A822B25AB1006FD463 /* sweetie2.c */,
+				6D6A03A922B25AB1006FD463 /* scores_in.c */,
+				6D6A03AA22B25AB1006FD463 /* for_down.c */,
+				6D6A03AB22B25AB1006FD463 /* while1.c */,
+				6D6A03AC22B25AB1006FD463 /* for_show.c */,
+				6D6A03AD22B25AB1006FD463 /* zeno.c */,
+				6D6A03AE22B25AB1006FD463 /* rows2.c */,
+				6D6A03AF22B25AB1006FD463 /* for_char.c */,
+				6D6A03B022B25AB1006FD463 /* sweetie1.c */,
+				6D6A03B122B25AB1006FD463 /* for_13s.c */,
+				6D6A03B222B25AB1006FD463 /* power.c */,
+				6D6A03B322B25AB1006FD463 /* for_geo.c */,
+				6D6A03B422B25AB1006FD463 /* for_cube.c */,
+				6D6A03B522B25AB1006FD463 /* do_while.c */,
+				6D6A03B622B25AB1006FD463 /* for_wild.c */,
+				6D6A03B722B25AB1006FD463 /* postage.c */,
+				6D6A03B822B25AB1006FD463 /* entry.c */,
+				6D6A03B922B25AB1006FD463 /* trouble.c */,
+				6D6A03BA22B25AB1006FD463 /* for_none.c */,
+			);
+			path = Ch06;
+			sourceTree = "<group>";
+		};
+		6D6A03BB22B25AB1006FD463 /* Ch13 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A03BC22B25AB2006FD463 /* addaword.c */,
+				6D6A03BD22B25AB2006FD463 /* eddy */,
+				6D6A03BE22B25AB2006FD463 /* reducto.c */,
+				6D6A03BF22B25AB2006FD463 /* append.c */,
+				6D6A03C022B25AB2006FD463 /* wordy */,
+				6D6A03C122B25AB2006FD463 /* reverse.c */,
+				6D6A03C222B25AB2006FD463 /* randbin.c */,
+				6D6A03C322B25AB2006FD463 /* count.c */,
+			);
+			path = Ch13;
+			sourceTree = "<group>";
+		};
+		6D6A03C422B25AB2006FD463 /* Ch15 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A03C522B25AB2006FD463 /* align.c */,
+				6D6A03C622B25AB2006FD463 /* dualview.c */,
+				6D6A03C722B25AB2006FD463 /* binbit.c */,
+				6D6A03C822B25AB2006FD463 /* invert4.c */,
+				6D6A03C922B25AB2006FD463 /* fields.c */,
+			);
+			path = Ch15;
+			sourceTree = "<group>";
+		};
+		6D6A03CA22B25AB2006FD463 /* Ch07 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A03CB22B25AB2006FD463 /* chcount.c */,
+				6D6A03CC22B25AB2006FD463 /* cypher1.c */,
+				6D6A03CD22B25AB2006FD463 /* break.c */,
+				6D6A03CE22B25AB2006FD463 /* wordcnt.c */,
+				6D6A03CF22B25AB2006FD463 /* cypher2.c */,
+				6D6A03D022B25AB2006FD463 /* paint.c */,
+				6D6A03D122B25AB2006FD463 /* electric.c */,
+				6D6A03D222B25AB2006FD463 /* colddays.c */,
+				6D6A03D322B25AB2006FD463 /* divisors.c */,
+				6D6A03D422B25AB2006FD463 /* vowels.c */,
+				6D6A03D522B25AB2006FD463 /* animals.c */,
+				6D6A03D622B25AB2006FD463 /* skippart.c */,
+			);
+			path = Ch07;
+			sourceTree = "<group>";
+		};
+		6D6A03D722B25AB2006FD463 /* Ch10 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A03D822B25AB2006FD463 /* zippo1.c */,
+				6D6A03D922B25AB2006FD463 /* order.c */,
+				6D6A03DA22B25AB2006FD463 /* arf.c */,
+				6D6A03DB22B25AB2006FD463 /* bounds.c */,
+				6D6A03DC22B25AB2006FD463 /* flc.c */,
+				6D6A03DD22B25AB2006FD463 /* vararr2d.c */,
+				6D6A03DE22B25AB2006FD463 /* ptr_ops.c */,
+				6D6A03DF22B25AB2006FD463 /* zippo2.c */,
+				6D6A03E022B25AB2006FD463 /* day_mon3.c */,
+				6D6A03E122B25AB2006FD463 /* some_data.c */,
+				6D6A03E222B25AB2006FD463 /* array2d.c */,
+				6D6A03E322B25AB2006FD463 /* designate.c */,
+				6D6A03E422B25AB2006FD463 /* day_mon2.c */,
+				6D6A03E522B25AB2006FD463 /* sum_arr1.c */,
+				6D6A03E622B25AB2006FD463 /* pnt_add.c */,
+				6D6A03E722B25AB2006FD463 /* no_data.c */,
+				6D6A03E822B25AB2006FD463 /* day_mon1.c */,
+				6D6A03E922B25AB2006FD463 /* rain.c */,
+				6D6A03EA22B25AB2006FD463 /* sum_arr2.c */,
+			);
+			path = Ch10;
+			sourceTree = "<group>";
+		};
+		6D6A03EB22B25AC2006FD463 /* Ch16 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A03EC22B25AC2006FD463 /* preproc.c */,
+				6D6A03ED22B25AC2006FD463 /* file2.c */,
+				6D6A03EE22B25AC2006FD463 /* varargs.c */,
+				6D6A03EF22B25AC2006FD463 /* rect_pol.c */,
+				6D6A03F022B25AC2006FD463 /* statasrt.c */,
+				6D6A03F122B25AC2006FD463 /* mems.c */,
+				6D6A03F222B25AC2006FD463 /* file1.c */,
+				6D6A03F322B25AC2006FD463 /* predef.c */,
+				6D6A03F422B25AC2006FD463 /* variadic.c */,
+				6D6A03F522B25AC2006FD463 /* names_st.h */,
+				6D6A03F622B25AC2006FD463 /* assert.c */,
+				6D6A03F722B25AC2006FD463 /* eatline.h */,
+				6D6A03F822B25AC2006FD463 /* el1.c */,
+				6D6A03F922B25AC2006FD463 /* doubleincl.c */,
+				6D6A03FA22B25AC2006FD463 /* generic.c */,
+				6D6A03FB22B25AC2006FD463 /* names.h */,
+				6D6A03FC22B25AC2006FD463 /* ifdef.c */,
+				6D6A03FD22B25AC2006FD463 /* qsorter.c */,
+				6D6A03FE22B25AC2006FD463 /* mytype.c */,
+				6D6A03FF22B25AC2006FD463 /* el2.c */,
+				6D6A040022B25AC2006FD463 /* byebye.c */,
+				6D6A040122B25AC2006FD463 /* mac_arg.c */,
+				6D6A040222B25AC2006FD463 /* file3.c */,
+				6D6A040322B25AC2006FD463 /* useheader.c */,
+				6D6A040422B25AC2006FD463 /* names_st.c */,
+				6D6A040522B25AC2006FD463 /* subst.c */,
+				6D6A040622B25AC2006FD463 /* glue.c */,
+			);
+			path = Ch16;
+			sourceTree = "<group>";
+		};
+		6D6A040722B25AC3006FD463 /* XB */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A040822B25AC3006FD463 /* def.c */,
+				6D6A040922B25AC3006FD463 /* complex.c */,
+				6D6A040A22B25AC3006FD463 /* strrtok.c */,
+				6D6A040B22B25AC3006FD463 /* wider.c */,
+				6D6A040C22B25AC3006FD463 /* offset.c */,
+				6D6A040D22B25AC3006FD463 /* complex0.c */,
+			);
+			path = XB;
+			sourceTree = "<group>";
+		};
+		6D6A040E22B25AC3006FD463 /* Ch17 */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A040F22B25AC3006FD463 /* list.c */,
+				6D6A041022B25AC3006FD463 /* films1.c */,
+				6D6A041122B25AC3006FD463 /* mall.c */,
+				6D6A041222B25AC3006FD463 /* films2.c */,
+				6D6A041322B25AC3006FD463 /* tree.h */,
+				6D6A041422B25AC3006FD463 /* queue.c */,
+				6D6A041522B25AC3006FD463 /* list.h */,
+				6D6A041622B25AC3006FD463 /* films3.c */,
+				6D6A041722B25AC3006FD463 /* use_q.c */,
+				6D6A041822B25AC3006FD463 /* petclub.c */,
+				6D6A041922B25AC3006FD463 /* queue.h */,
+				6D6A041A22B25AC3006FD463 /* tree.c */,
+			);
+			path = Ch17;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
