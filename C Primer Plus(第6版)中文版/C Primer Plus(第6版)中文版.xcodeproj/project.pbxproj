@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D6A030522B25871006FD463 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A030422B25871006FD463 /* main.c */; };
+		6D6A041D22B25B79006FD463 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A030422B25871006FD463 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -295,7 +295,6 @@
 			isa = PBXGroup;
 			children = (
 				6D6A030322B25871006FD463 /* C Primer Plus(第6版)中文版 */,
-				6D6A030B22B25A2E006FD463 /* C PrimerPlus 6 源码 */,
 				6D6A030222B25871006FD463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -312,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				6D6A030422B25871006FD463 /* main.c */,
+				6D6A030B22B25A2E006FD463 /* C PrimerPlus 6 源码 */,
 			);
 			path = "C Primer Plus(第6版)中文版";
 			sourceTree = "<group>";
@@ -776,7 +776,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6A030522B25871006FD463 /* main.c in Sources */,
+				6D6A041D22B25B79006FD463 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
